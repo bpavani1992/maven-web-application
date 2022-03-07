@@ -3,7 +3,7 @@ pipeline{
 agent any
 
 tools{
-maven 'maven3.8.2'
+maven 'maven3.8.4'
 
 }
 
@@ -53,7 +53,7 @@ stages{
   */
 }//Stages Closing
 
-post{
+/*post{
 
  success{
  emailext to: 'devopstrainingblr@gmail.com,mithuntechnologies@yahoo.com',
@@ -69,7 +69,7 @@ post{
           replyTo: 'devopstrainingblr@gmail.com'
  }
  
-}
+}*/
 
 
 }//Pipeline closing
